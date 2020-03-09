@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mongo-rest-api" />
+        <module name="spring-datajpa-postgresql" />
+        <module name="spring-elasticsearch" />
+        <module name="com.concon" />
+        <module name="spring-boot-dockerization" />
+        <module name="spring-boot-aop" />
+        <module name="spring-boot-rest-client" />
+        <module name="spring-boot-jwt" />
+        <module name="spring-boot-events" />
+        <module name="spring-redis-cache" />
+        <module name="spring-hello-word" />
+        <module name="spring-boot-rabbitmq" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-aop" options="-parameters" />
+      <module name="spring-boot-dockerization" options="-parameters" />
+      <module name="spring-boot-events" options="-parameters" />
+      <module name="spring-boot-jwt" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-rest-client" options="-parameters" />
+      <module name="spring-datajpa-postgresql" options="-parameters" />
+      <module name="spring-elasticsearch" options="-parameters" />
+      <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-redis-cache" options="-parameters" />
+    </option>
+  </component>
+</project>
